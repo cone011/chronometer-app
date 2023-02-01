@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Card from "./components/UI/Card/Card";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <Card>
+          <h1 style={{ backgroundColor: "black" }}>Hola</h1>
+        </Card>
       </header>
     </div>
   );
